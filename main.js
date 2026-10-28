@@ -50,7 +50,7 @@ function setStatus(text, { autoResetMs = 3500 } = {}) {
 	setStatus("Starting CheerpJ…", { autoResetMs: 0 });
 
 	await cheerpjInit({
-		version: 17,
+		version: 25,
 		maximizeWindows: true,
 	});
 
